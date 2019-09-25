@@ -66,7 +66,7 @@
   </body>
      <?php
 
-     if (isSet($_POST['submit'])){
+     if (isset($_POST['submit'])){
       $name = $_POST['name'];
       $email = $_POST['email'];
       $phone = $_POST['phone'];

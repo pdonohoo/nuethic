@@ -77,6 +77,7 @@
       $txt = 'You have recieved an email from '.$name.'./n/n'.$message.'and their phone number is'.$phone;
 
       mail($mailTo, $subject, $txt, $headers );
+      header('Location: index.php?mailsent');
      }
      ?>
   

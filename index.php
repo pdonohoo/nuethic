@@ -16,7 +16,7 @@
       <div>
         collections
       </div>
-      <div>
+      <div class='color'>
         see collection
       </div>
     </div>
@@ -47,20 +47,22 @@
           <h2 class='contactHeader'>Contact Us</h4>
           <p>Send us a message to let us know how we can help. We typically respond within 24 hours.</p>
           
-          <p>you can also give us a call at 801-994-6987</p>
+          <p>you can also give us a call at <span class='color'>801-994-6987</span></p>
           
-          <p>Or send us an email at contact@nuethic.com</p>
+          <p>Or send us an email at <span class='color'>contact@nuethic.com</span></p>
         </div>
         <form class='form' method='post' action='contact.php'>
-          Name:
-          <input type='text' name='name'/>
-          Email:
-          <input type='text' name='email'/>
-          Phone:
-          <input type='text' name='phone'/>
-          What can we do for you:
+          
+          <span>Name:</span>
+          <input type='text' name='name' placeholder='Name'/>
+          <span>Email:</span>
+          <input type='text' name='email' placeholder='Email'/>
+          <span>Phone:</span>
+          <input type='text' name='phone' placeholder="Phone Number" />
+          <span>What can we do for you:</span>
           <textarea name='message' ></textarea>
-          <input type='submit' name='submit' />
+          <input class="button" type='submit' name='submit' />
+          
         </form>
       </div>
   </body>

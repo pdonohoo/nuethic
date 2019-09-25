@@ -1,6 +1,8 @@
 .header-top {
   text-align: center;
   background-color: blue;
+  height: 25px;
+  padding-top: 5px;
 }
 .headerImage {
   width:100%;
@@ -38,23 +40,53 @@
 
 .bottomContact {
   display: flex;
-  padding: 10px;
+  padding: 10px 100px;
   justify-content: space-between;
-  padding: 100px;
+  padding: 50px 175px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  background-color: blue;
+  /* transform: skewY(-5deg); */
+  transform: skew(-8deg);
+  height: 325px;
+  width: 400px;
+  padding: 15px;
+  align-items: center
+}
 
+.contact {
+  width: 50%
 }
 
 input {
-  width: 400px;
-  height: 25px;
+  width: 300px;
+  height: 15px;
+  /* transform: skewy(5deg); */
+  transform: skew(8deg)
+}
+
+span {
+  /* transform: skewY(5deg); */
+  transform: skew(8deg)
 }
 
 textarea {
-  height: 150px
+  height: 150px;
+  width: 300px;
+  transform: skew(8deg);
+}
+
+.color {
+  color: blue;
+  text-decoration: underline;
+}
+
+.button {
+background-color: blue;
+color: white;
+
 }

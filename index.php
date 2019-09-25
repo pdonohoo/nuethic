@@ -73,7 +73,7 @@
       $message = $_POST['message'];
       $subject = 'This is a test';
 
-      $mailTo = 'nicole.westover@hotmail.com';
+      $mailTo = 'preston.s.donohoo@icloud.com';
       $headers = 'From: '.$email;
       $txt = 'You have recieved an email from '.$name.'./n/n'.$message.'and their phone number is'.$phone;
 

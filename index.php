@@ -51,7 +51,7 @@
           
           <p>Or send us an email at contact@nuethic.com</p>
         </div>
-        <form class='form' method='post' action='form.php'>
+        <form class='form' method='post' action='index.php'>
           Name:
           <input type='text' name='name'/>
           Email:

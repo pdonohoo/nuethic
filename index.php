@@ -5,11 +5,11 @@
   <head>
   <link rel='stylesheet' type='text/css' href='form.css' />
   </head>
-    <header>
+    <header class='header'>
     <div class='header-top'>
-    Sales up to 50%
+    Sales <span style='font-size: 16px'>Up to 50% OFF</span> selected items
     </div>
-      <img class='headerImage' src="/photos/sunglass.jpg" alt='sunglasses' />
+      <!-- <img class='headerImage' src="/photos/sunglass.jpg" alt='sunglasses' /> -->
     </header>
   <body>
     <div class='collections'>

@@ -23,23 +23,31 @@
     <div class='product'>
       <div class='glasses'>
         <img class='glassesImage'src='/photos/sunglass1.jpg' />
-          The ones <br>
-          35$
+          The Ones <br>
+          <span class='prices'>
+          <span class='oldPrice'>$40</span> $34
+          </span>
       </div>
       <div class='glasses'>
         <img class='glassesImage' src='/photos/sunglass2.jpg' />
           Aviators <br>
-          50$
+          <span class='prices'>
+          <span class='oldPrice'>$40</span> $20
+          </span>
       </div>
         <div class='glasses'>
           <img class='glassesImage' src='/photos/sunglass3.jpg' />
           Classic <br>
-          30$
+          <span class='prices'>
+          <span class='oldPrice'>$40</span> $34
+          </span>
         </div>
       <div class='glasses'>
           <img class='glassesImage' src='/photos/sunglass4.jpg' />
-          classic black <br>
-          30$
+          Classic Black <br>
+          <span class='prices'>
+          <span class='oldPrice'>$25</span> $22
+          </span>
         </div>
       </div>
       <div class='bottomContact'>

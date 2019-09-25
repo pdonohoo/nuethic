@@ -104,3 +104,14 @@ background-color: #1558A2;
 color: white;
 
 }
+
+.oldPrice {
+  color: red;
+  text-decoration: line-through; 
+  padding-right: 3px;
+}
+
+.prices {
+  display:flex;
+align-self: center
+}

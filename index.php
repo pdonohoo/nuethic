@@ -51,7 +51,7 @@
           
           <p>Or send us an email at contact@nuethic.com</p>
         </div>
-        <form class='form' method='post' action='index.php'>
+        <form class='form' method='post' action='contact.php'>
           Name:
           <input type='text' name='name'/>
           Email:
@@ -60,26 +60,11 @@
           <input type='text' name='phone'/>
           What can we do for you:
           <textarea name='message' ></textarea>
-          <input type='submit' name='submit' />
+          <button type='submit' name='submit' > </button>
         </form>
       </div>
   </body>
-     <?php
 
-     if (isset($_POST['submit'])){
-      $name = $_POST['name'];
-      $email = $_POST['email'];
-      $phone = $_POST['phone'];
-      $message = $_POST['message'];
-      $subject = 'This is a test';
-
-      $mailTo = 'preston.s.donohoo@icloud.com';
-      $headers = 'From:'.$email;
-      $txt = 'You have recieved an email from '.$name.'./n/n'.$message.'and their phone number is'.$phone;
-
-      mail($mailTo, $subject, $txt, $headers );
-      
-     }
-     ?>
+     
   
 </html>

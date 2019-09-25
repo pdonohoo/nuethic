@@ -71,6 +71,7 @@
       $email = $_POST['email'];
       $phone = $_POST['phone'];
       $message = $_POST['message'];
+      $subject = 'This is a test';
 
       $mailTo = 'nicole.westover@hotmail.com';
       $headers = 'From: '.$email;

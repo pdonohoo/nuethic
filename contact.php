@@ -7,13 +7,17 @@ require 'vendor/autoload.php';
 
 $mail = new PHPMailer(true);
 
+$dotenv = Dotenv\Dotenv::create(__DIR__);
+$dotenv->load();
+
 try {
+
      //Server settings
      $mail->isSMTP();                                            // Set mailer to use SMTP
-     $mail->Host       = 'smtp.sendgrid.net';  // Specify main and backup SMTP servers
+     $mail->Host       = getenv('SERVER_ENV');  // Specify main and backup SMTP servers
      $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-     $mail->Username   = 'apikey';                     // SMTP username
-     $mail->Password   = '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';                               // SMTP password
+     $mail->Username   = getenv('USERNAME_ENV');                     // SMTP username
+     $mail->Password   = getenv('PASSWORD_ENV');                               // SMTP password
      $mail->SMTPSecure = 'tls';         // Enable TLS encryption, `PHPMailer::ENCRYPTION_SMTPS` also accepted
      $mail->Port       = 587;                                    // TCP port to connect to
  

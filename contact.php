@@ -24,7 +24,7 @@ try {
      // Content
      $mail->isHTML(true);                                  // Set email format to HTML
      $mail->Subject = 'Here is the subject';
-     $mail->Body    = $_POST['message'];
+     $mail->Body    =  $_POST['name']; $_POST['phone']; $_POST['message']; 
  
      $mail->send();
      echo 'Message has been sent';

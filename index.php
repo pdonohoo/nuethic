@@ -60,7 +60,7 @@
           <input type='text' name='phone'/>
           What can we do for you:
           <textarea name='message' ></textarea>
-          <button type='submit' name='submit' > </button>
+          <input type='submit' name='submit' />
         </form>
       </div>
   </body>
